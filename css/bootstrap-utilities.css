@@ -1134,6 +1134,11 @@
   font-size: calc(1.375rem + 1.5vw) !important;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Six Caps";
+  font-size: xx-large;
+}
+
 .fs-2 {
   font-size: calc(1.325rem + 0.9vw) !important;
 }
