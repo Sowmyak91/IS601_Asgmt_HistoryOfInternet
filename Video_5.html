@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Video 5</title>
+  </head>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Header -->
+
+<nav class="navbar navbar-expand-lg navbar-light .bg-light" style= "background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <h3 class ="display-2">Our Site</h3>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link lead" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link lead" href="Team_Page.html">Team Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active lead" aria-current="page" href="About_Page.html">About Page</a>
+        </li>
+        <li class="nav-item dropdown lead">
+          <a class="nav-link dropdown-toggle lead" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Videos
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item lead" href="Video_1.html">Video 1</a></li>
+            <li><a class="dropdown-item lead" href="Video_2.html">Video 2</a></li>
+            <li><a class="dropdown-item lead" href="Video_3.html">Video 3</a></li>
+            <li><a class="dropdown-item lead" href="Video_4.html">Video 4</a></li>
+            <li><a class="dropdown-item lead" href="Video_5.html">Video 5</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h5 class="display-5 py-5 my-5">People Power</h5>
+  <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background: #25303B;
+}
+section#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: rgba(255,255,255,0.2);
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #25303B;
+  color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 0 7px #25303B;
+}
+section#timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 10px;
+}
+section#timeline article div.inner span.date span.month {
+  font-size: 18px;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 10px;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+    width: 10px; 
+    height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article:nth-child(1) div.inner h2 {
+  background: #e74c3c;
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #e74c3c;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #2ecc71;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #2ecc71;
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: #e67e22;
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: #e67e22;
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: #1abc9c;
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: #1abc9c;
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: #9b59b6;
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: #9b59b6;
+}
+  </style>
+
+  <section id="timeline">
+  <article>
+    <div class="inner">
+	<span class="date">
+      <span class="month">Revolution</span>
+	  </span>
+      <h2>Media revolution</h2>
+	  </span>
+      <p>A new generation of companies like YouTube, MySpace and Facebook companies that have begun to turn the web into a two-way participatory Democratic medium controlled by no one and shaped by everyone in other words our medium. History of the web tells the story of how the seeds of this remarkable transformation were sown right now. We all know how the web has changed the world but this is the story of how the world is changing the web. Chad Hurley, Kevin Rose and Jay Adelson are the leaders of the web 2.0 revolution Rosen a Tolson run Digg social news website the content of which is chosen by its devoted user community of millions.</p>
+	  <p>Meanwhile the co-founder of one of the planet's most insanely popular websites YouTube, the online video sharing service that was bought by Google in 2006 for a jaw-dropping 1.65 billion dollars now. Like other startup players these guys are not in it to get rich but they're on a mission to change the world through web enabled people power</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+	<span class="date">
+      <span class="month">Media</span>
+	  </span>
+      <h2>Dig and YouTube</h2>
+      <p>Dig and YouTube are part of a new wave of web services each more popular than the last all of which offer an alternative to old-school media. It was a clubby system that decided on its own what would get on the air. In other words today the TV industry is being blown wide open made accessible to everyone all because of YouTube and a transformation summed up by its two-word slogan broadcast yourself. Chad Hurley and his gang have given us all a power they used to reside only in the hands of the Masters of big media, they've given each and every one of us our own personal broadcast tower from which we can transmit our home video creations be they brilliant or utterly moronic to a potential audience of millions over a dig a similar kind of experiment underway, only here the subject isn't frivolous TV entertainment but that most self-serious of subjects news like a newspaper dig is full of the latest goings-on from around the world what lands on digs front-page isn't decided by some stripe, it's decided by you the user the more people who dig which is to say vote for a given story more prominence gets on the site.</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+	<span class="date">
+      <span class="month">Communication</span>
+	  </span>
+      
+      <h2>Facebook</h2>
+      <p>Mark Zuckerberg the founder of the burgeoning social networking site Facebook, says the reason why you spend so much time communicating with your friends and other people that you respect is because their opinions and what they say actually means a lot to you so what we've tried to do at Facebook is we've tried to map out all these relationships that people have. Facebook was growing like gangbusters getting ready for what was sure to be a multi-billion dollar IPO and looking quite possibly like the next Google but the truth is Facebook and YouTube and MySpace and Digg didn't come out of nowhere they're the direct descendants of another crop of media revolutionaries.</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="month">Music</span>
+      </span>
+      <h2>Music Revolution</h2>
+      <p>Guys like David Weekley, Justin Frankel, Cable Sasser and Steve Frank music lovers who started playing around with some obscure technology that put tunes together with PCs and the web. Most people weren't ready for the idea that real music could come from their computer and they'd actually be introduced to new music through their computer and through the internet, most computers didn't even have speakers that came with them. It's kind of exciting time because it was the beginning of that music revolution. Frank Sasser and the 18 year old Frankel when created downloadable media players Audion and Winamp applications that allowed users to store and play music in the form of mp3s on their computers but that was just the start music lovers and internet enthusiasts like David Weekley were getting excited about the idea of distributing and accessing mp3s online. In the history of Technology in June 1999 Fanning finished hacking up the code for Napster, the first program he'd ever written he gave it to a couple dozen of his friends that he met through online chat rooms and told them hey just don't spread this around but once they got their hands on it they couldn't resist within a week some 10,000 people had downloaded Napster and a revolution that promised a future in which the record shops the world.</p>
+	  <p>The explosion of downloads and the network started to go crazy for anything free were the first to catch the Napster bug in the next few months the program raged across American campuses in by October of 1999 Napster driven mp3 downloads were taking up 75 to 80 percent of the available bandwidth of many US universities in less than four months after Fannie released it Napster had passed the million download mark making it the fastest spreading software ever</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+	 <span class="date">
+        
+        <span class="month">Controversies</span>
+      </span>
+      <h2>Controversies by gaint media companies</h2>
+      <p>A new generation of 21st century web startups which soon rapidly lay claim to the best known of those startups of course is YouTube which in the past couple years has become a worldwide sensation in no small part by being a place where people can go to view countless clips from popular TV shows produced known by giant media companies such as Viacom. Philippe dal Mon Viacom CEO said about YouTube carry distinct echoes of the Napster controversy is a very high quality company. A lot of very very smart people can do things very quickly when they want to and I guess they haven't wanted to until this point but maybe they will want to in the future and will want to join the consensus that the Sony need to be a part of diamonds obvious unhappiness has expressed itself in legal form Viacom has launched a 1 billion dollar lawsuit against YouTube, accusing the site of quote brazen disregard for intellectual property law because of the copyrighted material that appears on the site.</p>
+	  <p>YouTube tried hard to come up with an easier system daolon spheres seem undiminished but bringing YouTube to heel won't be as easy as shutting down Napster was, because unlike Napster YouTube is no longer some underfunded startup it's got a deep pocketed sugar daddy in the form of the search giant Google which acquired YouTube at the end of 2006</p>
+    </div>
+  </article>
+  <article>
+  <div class="inner">
+	 <span class="date">
+        <span class="month">Craig</span>
+      </span>
+      <h2>Craigslist</h2>
+      <p>Craigslist one of the world's most popular websites which access the kind of online notice board in 450 cities worldwide conclude with all the stuff you get in the classified section of any newspaper jobs stuff for sale stuff wanted places to rent places to buy gigs services and of course personals many of them naughty and the fact that it's classifieds are free is why the newspaper publishers are in a tizzy considering the scale and global reach of Craigslist surely the company behind it must occupy a vast and gleaming headquarters in the heart of Silicon Valley and surely the man behind it all must be a rapacious billionaire fierce and formidable and imposing or not.! Craig Newmark to be precise a cuddly middle-aged ex programmer who runs his free to use freedom Post website out of this tiny San Francisco office which was once his apartment like Jimmy Wales the founder of Wikipedia the nonprofit user-generated Web encyclopedia. Newmark is living proof that the web is not just about making money it's about setting communication free we share some values with pretty much everyone in America and maybe everyone in the world the deal is that well once you make enough money to live comfortably and provide for your future what's the point in having more.</p>
+	  <p>We're just following through, we're in an era when people are starting to realize that communities self supervising communities can produce work of very high quality whether that's open-source software or something like a PDF the openness the transparency that as long as you've got social rules in place that tend to encourage good work and to discourage bad things the the product that comes out is pretty good as Wikipedia and Craigslist demonstrate as we see all around cyberspace the web belongs to us. The People.</p>
+    </div>
+  </article>
+
+</section>
+
+</body>
+</html>
