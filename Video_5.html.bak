@@ -50,7 +50,7 @@
     </div>
   </div>
 </nav>
-<h5 class="display-5">People Power</h5>
+<h5 class="display-5 py-5 my-5">People Power</h5>
   <style>
 html, body {
   margin: 0;
@@ -59,9 +59,6 @@ html, body {
 }
 body {
   background: #25303B;
-}
-h5.display-5 {
-    color: burlywood;
 }
 section#timeline {
   width: 80%;
@@ -188,12 +185,6 @@ section#timeline article:nth-child(5) div.inner h2 {
 }
 section#timeline article:nth-child(5) div.inner h2:after {
   background: #9b59b6;
-}
-section#timeline article:nth-child(6) div.inner h2 {
-  background: #dc3545;
-}
-section#timeline article:nth-child(6) div.inner h2:after {
-  background: #dc3545;
 }
   </style>
 
